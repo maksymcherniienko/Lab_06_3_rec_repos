@@ -61,7 +61,9 @@ int main()
 	Create(a, n, Low, High, 0);
 	cout << "array =                   ["; Print(a, n, 0); cout << "  ]" << endl;
 	SortRec(a, n, 1);
-	cout << "sorted array (recursive)= ["; Print(a, n, 0); cout << "  ]";
+	cout << "sorted array (recursive)= ["; Print(a, n, 0); cout << "  ]" << endl << endl;
+	Create(a, n, Low, High, 0);
+	cout << "array =                   ["; Print(a, n, 0); cout << "  ]";
 	Sort(a, n, 1); cout << endl;
 	cout << "sorted array  (template)= ["; Print(a, n, 0); cout << "  ]";
 	return 0;
